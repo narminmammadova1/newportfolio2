@@ -59,7 +59,7 @@ nav li a{color: #999999;
 
 
 
-.body{background-image: url("../images/body.png");}
+body{background-image:url(/images/body.png);}
 /* main start */
 
 /* Portfolio start */
