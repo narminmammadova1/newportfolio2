@@ -13,6 +13,8 @@ text-decoration: none;
     position: fixed;
 z-index: 99;
 border-bottom: 2px solid #ccc;
+;
+
 }
 .name{width: 250px;
 height: 90px;
@@ -24,14 +26,18 @@ position: relative;
 left: 200px;
 float: left;
 
+
 }
 .name a{color: #fff;
     font-size: 30;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 nav{float: right;
-position: relative;
-right: 180px;}
+position: absolute;
+right: 180px;
+
+
+}
 nav li{float: left;
     padding-top: 30px;
     
@@ -53,7 +59,7 @@ nav li a{color: #999999;
 
 
 
-body{background-image: url(/images/body.png);}
+.body{background-image: url("../images/body.png");}
 /* main start */
 
 /* Portfolio start */
